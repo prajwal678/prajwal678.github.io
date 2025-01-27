@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     3. <a href = "https://x.com/Prajwal41287086" target="_blank" style = "color: #0fc;">X(Twitter)</a> <br><hr>`,
 
         "cv": () => {
-            window.open("https://drive.google.com/file/d/1PH4mPz0TgXzln1bs3vCqt5lapsVp5caP/view?usp=sharing")
+            window.open("https://drive.google.com/file/d/1G_vFQPY8dh-Y7MwOSi8w_bjgCH5zv9xL/view?usp=sharing")
             return 'May not be the lastest! xD'
         },
 
