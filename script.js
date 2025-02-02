@@ -32,8 +32,10 @@ document.addEventListener("DOMContentLoaded", function() {
             `; // NEED TO ADD GUI COMMAND FOR PORTFOLIO
         },
         
-        "ls": () => commands["help"](),
-        
+        "ls": () => {
+            return commands["help"]();
+        },
+
         "welcome": `Hi!, I am Prajwal M, welcome to my portfolio website!, (TODO)GUI version. <br>
                     I am a computer science enthusiast, interested in Distributed Systems, Networks, Systems and more! <br>
                     Junior @ PES University, tech lead for a few clubs and currently interning @ <a href = "https://www.cognitivelab.in/" target="_blank" style = "color: #0cf;">Cognitive labs</a>.<hr>`,
