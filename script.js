@@ -31,7 +31,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 <hr>
             `; // NEED TO ADD GUI COMMAND FOR PORTFOLIO
         },
-
+        
+        "ls": () => commands["help"](),
+        
         "welcome": `Hi!, I am Prajwal M, welcome to my portfolio website!, (TODO)GUI version. <br>
                     I am a computer science enthusiast, interested in Distributed Systems, Networks, Systems and more! <br>
                     Junior @ PES University, tech lead for a few clubs and currently interning @ <a href = "https://www.cognitivelab.in/" target="_blank" style = "color: #0cf;">Cognitive labs</a>.<hr>`,
@@ -61,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     3. <a href = "https://x.com/Prajwal41287086" target="_blank" style = "color: #0fc;">X(Twitter)</a> <br><hr>`,
 
         "cv": () => {
-            window.open("https://drive.google.com/file/d/1G_vFQPY8dh-Y7MwOSi8w_bjgCH5zv9xL/view?usp=sharing")
+            window.open("https://drive.google.com/file/d/1_lhPp8faq9VCcEklJSxnQ5G_CyZX_PWT/view?usp=sharing")
             return 'May not be the lastest! xD'
         },
 
