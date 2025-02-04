@@ -24,12 +24,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 <span style="color:${themeColors.textColor};">projects</span>${'&nbsp;'.repeat(5)}- My Projects <br>
                 <span style="color:${themeColors.textColor};">skills</span>${'&nbsp;'.repeat(7)}- My current Skill Set <br>
                 <span style="color:${themeColors.textColor};">socials</span>${'&nbsp;'.repeat(6)}- Social Media Profiles <br>
-                <span style="color:${themeColors.textColor};">cv</span>${'&nbsp;'.repeat(11)}- Check out my Resume <br>
+                <span style="color:${themeColors.textColor};">cv</span>${'&nbsp;'.repeat(11)}- Check out my CV <br>
+                <span style="color:${themeColors.textColor};">resume</span>${'&nbsp;'.repeat(7)}- Check out my Resume <br>
                 <span style="color:${themeColors.textColor};">themes</span>${'&nbsp;'.repeat(7)}- Website Themes <br>
                 <span style="color:${themeColors.textColor};">clear</span>${'&nbsp;'.repeat(8)}- Clear the Terminal <br>
                 <span style="color:${themeColors.textColor};">exit</span>${'&nbsp;'.repeat(9)}- Close Tab <br>
                 <hr>
             `; // NEED TO ADD GUI COMMAND FOR PORTFOLIO
+               // make cv and route cv to that
         },
         
         "ls": () => {
@@ -65,11 +67,16 @@ document.addEventListener("DOMContentLoaded", function() {
                     3. <a href = "https://x.com/Prajwal41287086" target="_blank" style = "color: #0fc;">X(Twitter)</a> <br><hr>`,
 
         "cv": () => {
-            window.open("https://drive.google.com/file/d/1_lhPp8faq9VCcEklJSxnQ5G_CyZX_PWT/view?usp=sharing")
-            return 'May not be the lastest! xD'
+            window.open("https://drive.google.com/file/d/1iO8zLfknL2FK2OmeoVYjX9IUKP7RykJb/view?usp=sharing")
+            return 'May not be the latest! xD'
         },
 
-        "themes": `classic hacker <br> personal <br><br>type 'theme to theme-name'.<hr>`,
+        "resume": () => {
+            window.open("https://drive.google.com/file/d/1iO8zLfknL2FK2OmeoVYjX9IUKP7RykJb/view?usp=sharing")
+            return 'May not be the latest! xD'
+        },
+
+        "themes": `classic hacker <br> personal <br> vcs <br><br>type 'theme to theme-name'.<hr>`,
 
         "theme to classic hacker": () => {
             terminal.style.backgroundColor = '#000';
@@ -84,6 +91,18 @@ document.addEventListener("DOMContentLoaded", function() {
         },
 
         "theme to personal": () => {
+            terminal.style.backgroundColor = '#0D1926';
+            terminalHeader.style.backgroundColor = '#252526';
+            terminalHeader.style.color = '#B4E1FD';
+            terminalBody.style.color = '#B4E1FD';
+            themeColors.textColor = '#B4E1FD';
+            document.querySelectorAll('a').forEach(link => {
+                link.style.color = '#1E8EFF';
+            });
+            return "Switched to my Personal theme!";
+        },
+
+        "theme to vcs": () => {
             terminal.style.backgroundColor = '#1e1e1e';
             terminalHeader.style.backgroundColor = '#252526';
             terminalHeader.style.color = '#d4d4d4';
@@ -92,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.querySelectorAll('a').forEach(link => {
                 link.style.color = '#569cd6';
             });
-            return "Switched to my Personal theme!";
+            return "Switched to my VCS theme!";
         },
 
         "clear": () => {
