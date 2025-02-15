@@ -37,8 +37,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     welcome: `Hi!, I am Prajwal M, welcome to my portfolio website!, (TODO)GUI version. <br>
       I am a computer science enthusiast, interested in Distributed Systems, Networks, Systems and more! <br>
-      Junior @ PES University, tech lead for a few clubs and currently interning @ 
-      <a href="https://www.cognitivelab.in/" target="_blank" style="color: #0cf;">Cognitive labs</a>.<hr>
+      Junior @ PES University, tech lead for a few clubs and currently interning @<a href = "https://www.hpe.com/in/en/home.html" target = "_blank" style = "color: #0cf;">HPE(Hewlett Packard Enterprise)</a>.<hr>
     `,
 
     edu: () => `
@@ -61,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     skills: () => `
       <span style="color:${themeColors.textColor};">Languages</span>:${"&nbsp;".repeat(2)}C/C++, Python, JavaScript, Rust, Bash, Flutter <br>
-      <span style="color:${themeColors.textColor};">Tools</span>:${"&nbsp;".repeat(6)}Git, Wireshark, Nmap, Docker, Kubernetes, PostMan, Cisco Packet ${"&nbsp;".repeat(12)}Tracer, Prometheus, Grafana <br>
+      <span style="color:${themeColors.textColor};">Tools</span>:${"&nbsp;".repeat(6)}Git, Wireshark, Nmap, Docker, Kubernetes, PostMan, Cisco Packet${"&nbsp;".repeat(12)}Tracer, Prometheus, Grafana <br>
       <span style="color:${themeColors.textColor};">Frameworks</span>:${"&nbsp;".repeat(1)}OpenSSL, Flask, MERN, Kafka, Redis, eBPF, OpenTelemetry <br>
       <span style="color:${themeColors.textColor};">Platforms</span>:${"&nbsp;".repeat(2)}Linux, Web, Windows, Arduino, Azure, AWS <br>
       <hr>
@@ -74,12 +73,12 @@ document.addEventListener("DOMContentLoaded", () => {
     `,
 
     cv: () => {
-      window.open("https://drive.google.com/file/d/1iO8zLfknL2FK2OmeoVYjX9IUKP7RykJb/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1bfjtUrkO8ncOFGLBFYpY3rgQSSKZqYOz/view?usp=sharing");
       return "May not be the latest! xD";
     },
 
     resume: () => {
-      window.open("https://drive.google.com/file/d/1iO8zLfknL2FK2OmeoVYjX9IUKP7RykJb/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1bfjtUrkO8ncOFGLBFYpY3rgQSSKZqYOz/view?usp=sharing");
       return "May not be the latest! xD";
     },
 
