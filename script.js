@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     skills: () => `
       <span style="color:${themeColors.textColor};">Languages</span>:${"&nbsp;".repeat(2)}C/C++, Python, JavaScript, Rust, Bash, Flutter <br>
-      <span style="color:${themeColors.textColor};">Tools</span>:${"&nbsp;".repeat(6)}Git, Wireshark, Nmap, Docker, Kubernetes, PostMan, Cisco Packet${"&nbsp;".repeat(12)}Tracer, Prometheus, Grafana <br>
+      <span style="color:${themeColors.textColor};">Tools</span>:${"&nbsp;".repeat(6)}Git, Wireshark, Nmap, Docker, Kubernetes, PostMan, Cisco Packet ${"&nbsp;".repeat(12)}Tracer, Prometheus, Grafana <br>
       <span style="color:${themeColors.textColor};">Frameworks</span>:${"&nbsp;".repeat(1)}OpenSSL, Flask, MERN, Kafka, Redis, eBPF, OpenTelemetry <br>
       <span style="color:${themeColors.textColor};">Platforms</span>:${"&nbsp;".repeat(2)}Linux, Web, Windows, Arduino, Azure, AWS <br>
       <hr>
@@ -82,17 +82,17 @@ document.addEventListener("DOMContentLoaded", () => {
       return "May not be the latest! xD";
     },
 
-    themes: `classic hacker <br> personal <br> dracula <br> solarized dark <br> vcs <br><br>type 'theme to theme-name'.<hr>
+    themes: `hacker <br> personal <br> dracula <br> solarized dark <br> monokai <br> nord <br> vcs <br><br>type 'theme to theme-name'.<hr>
     `,
 
-    "theme to classic hacker": () => {
+    "theme to hacker": () => {
       terminal.style.backgroundColor = "#000";
       terminalHeader.style.backgroundColor = "#000";
       terminalHeader.style.color = "#0f0";
       terminalBody.style.color = "#0f0";
       themeColors.textColor = "#0f0";
       document.querySelectorAll("a").forEach((link) => (link.style.color = "#0cf"));
-      return "Switched to Classic Hacker theme!";
+      return "Switched to Hacker theme!";
     },
 
     "theme to personal": () => {
@@ -123,6 +123,26 @@ document.addEventListener("DOMContentLoaded", () => {
       themeColors.textColor = "#93a1a1";
       document.querySelectorAll("a").forEach((link) => (link.style.color = "#268bd2"));
       return "Switched to my Solarized Dark theme!";
+    },
+
+    "theme to monokai": () => {
+      terminal.style.backgroundColor = "#272822";
+      terminalHeader.style.backgroundColor = "#383830";
+      terminalHeader.style.color = "#F8F8F2";
+      terminalBody.style.color = "#F8F8F2";
+      themeColors.textColor = "#F8F8F2";
+      document.querySelectorAll("a").forEach((link) => (link.style.color = "#A6E22E"));
+      return "Switched to my Monokai theme!";
+    },
+
+    "theme to nord": () => {
+      terminal.style.backgroundColor = "#2E3440";
+      terminalHeader.style.backgroundColor = "#3B4252";
+      terminalHeader.style.color = "#D8DEE9";
+      terminalBody.style.color = "#D8DEE9";
+      themeColors.textColor = "#D8DEE9";
+      document.querySelectorAll("a").forEach((link) => (link.style.color = "#88C0D0"));
+      return "Switched to my Nord theme!";
     },
 
     "theme to vcs": () => {
