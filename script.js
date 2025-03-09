@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
     ls: () => commands.help(),
 
     welcome: `Hi!, I am Prajwal M, welcome to my portfolio website!, (TODO)GUI version. <br>
-      I am a computer science enthusiast, interested in Distributed Systems, Networks, Systems and more! <br>
+      I am a computer science enthusiast, interested in Distributed Systems, Databases, Networks, Systems and more! <br>
       Junior @ PES University, tech lead for a few clubs and currently interning @<a href = "https://www.hpe.com/in/en/home.html" target = "_blank" style = "color: #0cf;">HPE(Hewlett Packard Enterprise)</a>.<hr>
     `,
 
@@ -73,12 +73,12 @@ document.addEventListener("DOMContentLoaded", () => {
     `,
 
     cv: () => {
-      window.open("https://drive.google.com/file/d/1RCQFi2dEGFCvR_z2OJTnLsVXnj0ehYYt/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1nk0lYkN1kvZUPwm5hh5FqGTZcTJ8PgGM/view?usp=sharing");
       return "May not be the latest! xD";
     },
 
     resume: () => {
-      window.open("https://drive.google.com/file/d/1RCQFi2dEGFCvR_z2OJTnLsVXnj0ehYYt/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1nk0lYkN1kvZUPwm5hh5FqGTZcTJ8PgGM/view?usp=sharing");
       return "May not be the latest! xD";
     },
 
