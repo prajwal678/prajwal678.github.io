@@ -73,12 +73,12 @@ document.addEventListener("DOMContentLoaded", () => {
     `,
 
     cv: () => {
-      window.open("https://drive.google.com/file/d/1ZK9Zs7xWX41bvrpggXpz-YIKOxm5lbbs/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1qgzuWMn3OuhDeKXys3CEWp6wp11065Yt/view");
       return "May not be the latest! xD";
     },
 
     resume: () => {
-      window.open("https://drive.google.com/file/d/1ZK9Zs7xWX41bvrpggXpz-YIKOxm5lbbs/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1qgzuWMn3OuhDeKXys3CEWp6wp11065Yt/view");
       return "May not be the latest! xD";
     },
 
