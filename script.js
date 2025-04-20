@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
 
     resume: () => {
-      window.open("https://drive.google.com/file/d/1tm48Ls5YdcaHfyvuBYgPoX0qKi5JaZyC/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1tm48Ls5YdcaHfyvuBYgPoX0qKi5JaZyC/view");
       return "May not be the latest! xD";
     },
 
