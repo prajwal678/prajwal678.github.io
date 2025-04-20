@@ -78,12 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
 
     resume: () => {
-      window.open("https://drive.google.com/file/d/1WxQ6Z3u634LE41hWVPiN-gAgCDzsFXcb/view");
-      return "May not be the latest! xD";
-    },
-
-    resume: () => {
-      window.open("zsFXcb/view?usp=sharing");
+      window.open("https://drive.google.com/file/d/1tm48Ls5YdcaHfyvuBYgPoX0qKi5JaZyC/view?usp=sharing");
       return "May not be the latest! xD";
     },
 
