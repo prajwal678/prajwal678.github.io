@@ -53,8 +53,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     projects: `Checkout my <a href="https://github.com/prajwal678" target="_blank" style="color: #0cf;">github</a> to see all my projects <hr>
       These are some highlights: <br>
+      <a href="https://github.com/prajwal678/Raft3D" target="_blank" style="color: #0cf;">Raft3D</a> <br>
       <a href="https://github.com/prajwal678/YADTQ" target="_blank" style="color: #0cf;">YADTQ</a> <br>
       <a href="https://github.com/prajwal678/NoteBetter" target="_blank" style="color: #0cf;">NoteBetter</a> <br>
+      <a href="https://github.com/prajwal678/miller_rabin_parallel" target="_blank" style="color: #0cf;">Miller Rabin - Parallelized</a> <br>
+      <a href="https://github.com/prajwal678/MongoChart" target="_blank" style="color: #0cf;">MongoChart</a> <br>
+      <a href="https://github.com/prajwal678/TheNibbleNotebook" target="_blank" style="color: #0cf;">The Nibble Notebook</a> <br>
       <a href="https://github.com/prajwal678/WCE-Indexify" target="_blank" style="color: #0cf;">WCE-Indexify</a><hr>
     `,
 
