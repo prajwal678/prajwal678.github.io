@@ -77,12 +77,12 @@ document.addEventListener("DOMContentLoaded", () => {
     `,
 
     cv: () => {
-      window.open("https://drive.google.com/file/d/1uKMxAHDmILSEM4mRgn8_UjL8TXK6hcvW/view");
+      window.open("https://drive.google.com/file/d/18gZMRtYlxUemhRW3cQILdkWh0pM6fxyF/view");
       return "May not be the latest! xD";
     },
 
     resume: () => {
-      window.open("https://drive.google.com/file/d/1uKMxAHDmILSEM4mRgn8_UjL8TXK6hcvW/view");
+      window.open("https://drive.google.com/file/d/18gZMRtYlxUemhRW3cQILdkWh0pM6fxyF/view");
       return "May not be the latest! xD";
     },
 
