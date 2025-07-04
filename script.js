@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
 
     resume: () => {
-      window.open("https://drive.google.com/file/d/18gZMRtYlxUemhRW3cQILdkWh0pM6fxyF/view"); 
+      window.open("https://drive.google.com/file/d/18gZMRtYlxUemhRW3cQILdkWh0pM6fxyF/view");
       return "May not be the latest! xD";
     },
 
