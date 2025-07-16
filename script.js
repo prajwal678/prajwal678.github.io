@@ -35,9 +35,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     ls: () => commands.help(),
 
-    welcome: `Hi!, I am Prajwal M, welcome to my portfolio website!, (TODO)GUI version. <br>
-      I am a computer science enthusiast, interested in Distributed Systems, Databases, Networks, Systems and more! <br>
-      Junior @ PES University, tech lead for a few clubs and currently interning @<a href = "https://www.hpe.com/in/en/home.html" target = "_blank" style = "color: #0cf;">HPE(Hewlett Packard Enterprise)</a>.<hr>
+    welcome: `Hi!, I am Prajwal M, welcome to my (old) portfolio website!, (TODO)<a href = "https://praj-wal.is-a.dev/" target = "_blank" style = "color: #ocf;">GUI version</a>.<br>
+      I am a computer science enthusiast, interested in Distributed Systems, Databases, Networks, Systems, and more! <br>
+      Senior @ PES University, tech lead for a few clubs and currently interning @ IBM and TwoSpoon.ai .<hr>
     `,
 
     edu: () => `
@@ -77,12 +77,12 @@ document.addEventListener("DOMContentLoaded", () => {
     `,
 
     cv: () => {
-      window.open("https://drive.google.com/file/d/18gZMRtYlxUemhRW3cQILdkWh0pM6fxyF/view");
+      window.open("https://drive.google.com/file/d/1PW5-azg020JCHReFaleO-UlU1lcGADMT/view");
       return "May not be the latest! xD";
     },
 
     resume: () => {
-      window.open("https://drive.google.com/file/d/18gZMRtYlxUemhRW3cQILdkWh0pM6fxyF/view"); 
+      window.open("https://drive.google.com/file/d/1PW5-azg020JCHReFaleO-UlU1lcGADMT/view"); 
       return "May not be the latest! xD";
     },
 
