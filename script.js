@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     ls: () => commands.help(),
 
-    welcome: `Hi!, I am Prajwal M, welcome to my (old) portfolio website!, (TODO)<a href = "https://praj-wal.is-a.dev/" target = "_blank" style = "color: #ocf;">GUI version</a>.<br>
+    welcome: `Hi!, I am Prajwal M, welcome to my (old) portfolio website!, Here is the new <a href = "https://praj-wal.is-a.dev/" target = "_blank" style = "color: #ocf;">GUI version</a>.<br>
       I am a computer science enthusiast, interested in Distributed Systems, Databases, Networks, Systems, and more! <br>
       Senior @ PES University, tech lead for a few clubs and currently interning @ IBM and TwoSpoon.ai .<hr>
     `,
